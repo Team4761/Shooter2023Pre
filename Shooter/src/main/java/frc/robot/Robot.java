@@ -73,9 +73,11 @@ public class Robot extends TimedRobot {
   }
 
   /** This function is called once when teleop is enabled. */
+  String zublic = "zublic";
+  int zzublic = zublic.indexOf("lic");
   @Override
   public void teleopInit() {
-    System.out.println("zublic");
+    System.out.println(zzublic);
   }
 
   /** This function is called periodically during operator control. */
